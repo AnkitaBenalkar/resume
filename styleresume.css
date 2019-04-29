@@ -1,0 +1,135 @@
+body {
+  margin: 8rem 15rem;
+  font-family: monoscape;
+}
+
+fieldset{
+  border: 0px;
+  padding: 5px;
+}
+
+.fstyle{
+  margin:0;
+  font-weight: 800;
+}
+
+.verticalalign{
+  justify-content: baseline;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(0,108,108);
+  color: white;
+  padding: 3px 20px;
+  border-radius: 10px;
+}
+
+td{
+  vertical-align: top;
+}
+
+li{
+  padding: 4px;
+}
+
+hr{
+  margin: 1em 0px;
+}
+
+.displayflex{
+  display: flex;
+}
+
+.left{
+  flex: 2;
+}
+
+.right{
+  flex: 1;
+}
+
+.background {
+  background-color: teal;
+  display: flex;
+}
+
+.namediv {
+  font-size: 35px;
+  color: white;
+  text-align: left;
+  margin: 20px 0px 2px 5px;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 28px;
+}
+
+.download {
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  width: 130px;
+  height: 50px;
+}
+
+h4{
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.flexdisplay{
+  display: flex;
+  margin: 8px 0px 8px 0px;
+}
+
+.education {
+  width: 800px;
+  margin :2px;
+  flex: 3;
+}
+
+.skills {
+  width:200px;
+  margin: 2px;
+  flex: 1;
+}
+
+.achievements {
+  width: 200px;
+  flex: 1;
+}
+
+.project {
+  flex: 3;
+}
+
+.experience {
+  flex: 3;
+}
+
+.contact {
+  flex: 1;
+}
+
+.aboutme {
+  flex: 1;
+}
+
+.personalinfo {
+  flex: 3;
+}
+
+.education:hover, .skills:hover, .achievements:hover, .project:hover, .experience:hover, .contact:hover, .aboutme:hover, .personalinfo:hover{
+  box-shadow: 2px 2px 6px teal;
+  border: 1px solid teal;
+  padding-top: 10px;
+  padding-left: 3px;
+  border-radius: 10px;
+}
