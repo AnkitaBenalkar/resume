@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    font-family: monoscape;
+}
+
+body{
+    margin: 8rem 20rem;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:768px){
+    body{
+        margin: 0;
+    }
+    /* .col1{
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+    } */
+}
+
+.col1{
+    width: 35%;
+    min-height: 100%;
+    background-color: teal;
+    float: left;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+}
+
+.col2{
+    width: 65%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0,108,108,0.2);
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 20px 15px 8px 15px;
+}
+
+.name-h3-style{
+    color: cornsilk;
+    font-size:25px;
+    margin: 8px;
+}
+
+.personal-info{
+    color: cornsilk;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.table-td{
+    vertical-align: top;
+    padding: 5px;
+}
+
+.contact-info ~ table, td{
+    color: cornsilk;
+    margin: 10px;
+}
+
+.table-text-font{
+    font-weight: 550;
+}
+
+.p-font-style{
+    font-weight: 600; 
+    font-size:18px;
+    margin:2px;
+    color:cornsilk;
+}
+
+.table-margin{
+    margin: 10px 10px 10px 20px;
+}
+
+.education, .skills, .project, .experience, .about-me{
+    background-color: rgb(0,128,128);
+    color: cornsilk;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 5px 0px 5px;
+    padding: 5px 5px 0px 5px;
+}
+
+.education-text-heading, .skills-text-heading, .project-text-heading, .experience-text-heading, .aboutme-text-heading{
+    padding: 8px 30px;
+    border: 1px solid white;
+}
+
+.education-text-heading{
+    width: 205px; 
+}
+.skills-text-heading{
+    width: 102px;
+}
+.project-text-heading{
+    width: 202px; 
+}
+.experience-text-heading, .aboutme-text-heading{
+    width: 145px;
+}
+
+/* div:hover{
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    border-radius: 15px;
+} */
+
+.table-heading{
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 2px;
+    margin-left: 15px;
+    color: black;
+  }
+
+.table-td-text{
+    color: black;
+}
+
+ul{
+    padding: 5px 10px 10px 40px;
+}
+
+.list-li{
+    padding: 4px;
+    list-style-type: square;
+}
+
+.progress-container{
+    width: 130px;
+    height: 11px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0 0 0 15px;
+    padding: 0;
+    align-self: center;
+}
+
+.progress-value-color{
+    margin: 0px;
+    padding: 0;
+    background-color: rgb(0,128,128);
+    width: 70px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
