@@ -12,8 +12,17 @@ body{
     body{
         margin: 0;
     }
+    .contact-info{
+        display: none;
+    }
     .contact-info1{
-        color: cornsilk;
+        display: block;
+    }
+}
+
+@media screen and (min-width:769px){
+    .contact-info1{
+        display: none;
     }
 }
 
@@ -24,7 +33,7 @@ body{
     float: left;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    padding: 5px 15px 5px 5px;
+    padding: 5px 10px 5px 5px;
 }
 
 .col2{
@@ -41,18 +50,18 @@ body{
     width: 100px;
     height: 100px;
     border: 2px solid white;
-    border-radius: 30px;
+    border-radius: 50%;
     margin: 20px 15px 8px 15px;
 }
 
 .name-h3-style{
-    color: cornsilk;
-    font-size:25px;
+    color: white;
+    font-size:28px;
     margin: 8px;
 }
 
 .personal-info{
-    color: cornsilk;
+    color: white;
     margin: 10px;
     font-size: 15px;
 }
@@ -62,8 +71,8 @@ body{
     padding: 5px;
 }
 
-.contact-info ~ table, td{
-    color: cornsilk;
+.contact-info > table, td{
+    color: white;
     margin: 10px;
 }
 
@@ -72,10 +81,18 @@ body{
 }
 
 .p-font-style{
-    font-weight: 600; 
+    /* font-weight: 550; 
     font-size:20px;
-    margin:2px;
-    color:cornsilk;
+    margin:3px;
+    color:white; */
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 18px;
+    padding: 3px 7px;
+    width: 155px;
+    margin-bottom: 5px;
 }
 
 .table-margin{
@@ -84,16 +101,15 @@ body{
 
 .education, .skills, .project, .experience, .about-me{
     background-color: rgb(0,128,128);
-    color: cornsilk;
+    color: white;
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
     margin: 5px 5px 0px 5px;
-    padding: 5px 5px 0px 5px;
 }
 
 .education-text-heading, .skills-text-heading, .project-text-heading, .experience-text-heading, .aboutme-text-heading{
-    padding: 8px 30px;
+    padding: 8px 15px;
     border: 1px solid white;
 }
 
@@ -110,10 +126,37 @@ body{
     width: 85px;
 }
 
-/* div:hover{
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
-    border-radius: 15px;
-} */
+.project-text-style{
+    padding-top: 0;
+    text-indent: 20px;
+}
+
+.contact-info1{
+    color: white;
+}
+
+.contact-info-main{
+    font-size: 17px;
+    font-weight: 540;
+    margin-bottom: 5px;
+}
+
+.contact-info-value{
+    padding-top: 0;
+    margin-top: 0;
+    text-indent: 20px;
+}
+
+.contact-info-value a{
+    color: white;
+    text-decoration: none;
+}
+
+.aboutme-text{
+    padding:8px;
+    margin:10px 10px 10px 20px;
+    text-indent: 20px;
+}
 
 .table-heading{
     font-size: 15px;
@@ -127,10 +170,6 @@ body{
     color: black;
 }
 
-ul{
-    padding: 5px 10px 10px 40px;
-}
-
 .list-li{
     padding: 4px;
     list-style-type: square;
@@ -142,13 +181,13 @@ ul{
     height: 10px;
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 0 0 0 15px;
+    margin: 0;
     padding: 0;
     align-self: center;
 }
 
 .progress-value-color{
-    margin: 0px;
+    margin: 0;
     padding: 0;
     background-color: rgb(0,128,128);
     width: 70px;
