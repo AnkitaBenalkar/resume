@@ -120,19 +120,20 @@ body{
 .education-text-heading, .skills-text-heading, .project-text-heading, .experience-text-heading, .aboutme-text-heading{
     padding: 8px 15px;
     border: 1px solid white;
+    text-align: center;
 }
 
 .education-text-heading{
-    width: 180px; 
+    width: 200px; 
 }
 .skills-text-heading{
-    width: 78px;
+    width: 98px;
 }
 .project-text-heading{
-    width: 185px; 
+    width: 200px; 
 }
 .experience-text-heading, .aboutme-text-heading{
-    width: 120px;
+    width: 140px;
 }
 
 .project-text-style{
