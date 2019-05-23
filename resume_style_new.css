@@ -12,6 +12,9 @@ body{
     body{
         margin: 0;
     }
+    .contact-info1{
+        color: cornsilk;
+    }
 }
 
 .col1{
@@ -70,7 +73,7 @@ body{
 
 .p-font-style{
     font-weight: 600; 
-    font-size:18px;
+    font-size:20px;
     margin:2px;
     color:cornsilk;
 }
@@ -95,16 +98,16 @@ body{
 }
 
 .education-text-heading{
-    width: 205px; 
+    width: 140px; 
 }
 .skills-text-heading{
-    width: 102px;
+    width: 48px;
 }
 .project-text-heading{
-    width: 202px; 
+    width: 150px; 
 }
 .experience-text-heading, .aboutme-text-heading{
-    width: 145px;
+    width: 85px;
 }
 
 /* div:hover{
@@ -131,11 +134,12 @@ ul{
 .list-li{
     padding: 4px;
     list-style-type: square;
+    color: black;
 }
 
 .progress-container{
     width: 130px;
-    height: 11px;
+    height: 10px;
     border: 1px solid gray;
     border-radius: 10px;
     margin: 0 0 0 15px;
@@ -150,4 +154,13 @@ ul{
     width: 70px;
     height: 10px;
     border-radius: 10px;
+}
+
+.download-button{
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    padding: 11px 20px;
+    margin: 10px;
 }
