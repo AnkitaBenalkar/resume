@@ -12,12 +12,12 @@ body{
     body{
         margin: 0;
     }
-    /* .col1{
-        width: 100%;
+     .col1{
+        width: 40%;
     }
-    .col2{
-        width: 100%;
-    } */
+    .col2{ 
+        width: 60%;
+    }
 }
 
 .col1{
@@ -156,8 +156,4 @@ ul{
     width: 70px;
     height: 10px;
     border-radius: 10px;
-}
-
-::-webkit-scrollbar{
-    display: none;
 }
